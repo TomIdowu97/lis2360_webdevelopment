@@ -95,3 +95,31 @@ iframe {
 	padding: 8px;
 	margin: 8px;
 }
+/* DIV STYLES FOR PAGE LAYOUT */
+#container {
+	width: 1200px;
+	margin: 0 auto;
+	padding: 40px;
+	border: 1px solid #000;
+	background-color: #AB1D0B;
+}
+#content {
+	width: 1000px;
+	float: left;
+	padding-bottom: 40px;
+}
+#sidebar {
+	width: 180px;
+	float: left;
+	padding: 10px;
+}
+#sidebar p{
+	padding: 2px;
+	background-color: #eee;
+	border: 1px solid #f00;
+	border-radius: 6px;
+	box-shadow: 10px 10px 5px #888;
+}
+#footer {
+	clear: both;
+}
